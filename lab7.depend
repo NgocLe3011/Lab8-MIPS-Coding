@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1775589609 source:c:\users\afsa3\system arch\lab7\main.c
+	"header.h"
+
+1775589716 c:\users\afsa3\system arch\lab7\header.h
+	<string.h>
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<sys/param.h>
+	<stdbool.h>
+	<ctype.h>
+
+1774907937 source:c:\users\afsa3\system arch\lab7\lab7.c
+	"header.h"
+	<stdint.h>
+
+1774967590 source:c:\users\afsa3\system arch\lab7\memory.c
+	"header.h"
+
+1774447808 source:c:\users\afsa3\system arch\lab7\parser.c
+	"header.h"
+	"parser.h"
+
+1774447808 c:\users\afsa3\system arch\lab7\parser.h
+	<string.h>
+
+1774967285 source:c:\users\afsa3\system arch\lab7\globals.c
+	"header.h"
+
+1775589866 source:c:\users\afsa3\system arch\lab7\lab8_9.c
+	"header.h"
+	"lab8header.h"
+
+1775576691 c:\users\afsa3\system arch\lab7\lab8header.h
+
+1774967285 source:c:\users\afsa3\system arch\lab8\globals.c
+	"header.h"
+
+1775589716 c:\users\afsa3\system arch\lab8\header.h
+	<string.h>
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<sys/param.h>
+	<stdbool.h>
+	<ctype.h>
+
+1774907937 source:c:\users\afsa3\system arch\lab8\lab7.c
+	"header.h"
+	<stdint.h>
+
+1775589866 source:c:\users\afsa3\system arch\lab8\lab8_9.c
+	"header.h"
+	"lab8header.h"
+
+1775576691 c:\users\afsa3\system arch\lab8\lab8header.h
+
+1775589609 source:c:\users\afsa3\system arch\lab8\main.c
+	"header.h"
+
+1774447808 source:c:\users\afsa3\system arch\lab8\parser.c
+	"header.h"
+	"parser.h"
+
+1774447808 c:\users\afsa3\system arch\lab8\parser.h
+	<string.h>
+
