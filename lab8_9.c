@@ -45,14 +45,7 @@ void CPU(unsigned char *mem){
 unsigned int CPU_fetchCode(char *mem, int codeOffset){
     //MIPS machine code stores big‑endian
     //unsigned char before shifting to avoid sign extension.
-    unsigned int code = 0;
-
-    code = code | ((unsigned char)mem[codeOffset]     << 24);
-    code = code | ((unsigned char)mem[codeOffset + 1] << 16);
-    code = code | ((unsigned char)mem[codeOffset + 2] << 8);
-    code = code |  (unsigned char)mem[codeOffset + 3];
-
-    return code;
+    return read_dword((char*)mem, codeOffset);
 }
 
 // Lab 8 - Step 2. Finish the CPU_Decode function to
@@ -117,7 +110,7 @@ void CPU_Execution(unsigned char opcode, unsigned int machineCode, char *mem){
 //         $at  = ... ... etc.
 void printRegisterFiles(){
     for (int i = 0; i < N_REG; i++){
-        printf("%-5s = 0x%08X\n", regNameTab[i], regFile[i]);
+        printf("%s = 0x%08X\n", regNameTab[i], regFile[i]);
     }
 }
 
